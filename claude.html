@@ -1,0 +1,102 @@
+<!-- PEGAR EN UN BLOQUE "HTML PERSONALIZADO" DE WORDPRESS -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;1,400&family=Dancing+Script:wght@600&display=swap');
+.dpv{--vino:#7b2d43;--rosa:#c98a9b;--crema:#fbf5f0;--arena:#efe2da;--tinta:#4a3a3f;max-width:900px;margin:0 auto;padding:8px;font-family:'Lora',Georgia,serif;color:var(--tinta);line-height:1.8;font-size:18px;box-sizing:border-box}
+.dpv *{box-sizing:border-box}
+.dpv a{color:var(--vino)}
+.dpv-hero{text-align:center;background:linear-gradient(160deg,#f6e4e4,#fbf5f0 60%,#efe2da);border:1px solid #e4cfc6;border-radius:18px;padding:48px 24px 36px}
+.dpv-hero .pre{font-family:'Dancing Script',cursive;font-size:28px;color:var(--rosa);margin:0}
+.dpv-hero h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(34px,6vw,54px);line-height:1.15;color:var(--vino);margin:6px 0 10px;font-weight:600}
+.dpv-hero .autora{font-size:19px;margin:0}
+.dpv-hero .datos{font-size:15px;color:#7a6a6e;margin:10px auto 0;max-width:620px}
+.dpv-line{width:90px;height:2px;background:var(--rosa);margin:18px auto;border:0}
+.dpv-nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:26px 0}
+.dpv-nav a{text-decoration:none;padding:9px 20px;border:1.5px solid var(--vino);border-radius:999px;font-size:15px;color:var(--vino);background:#fff;transition:.2s}
+.dpv-nav a:hover{background:var(--vino);color:#fff}
+.dpv-sec{background:#fff;border:1px solid #ecdcd4;border-radius:16px;padding:34px 28px;margin:26px 0;box-shadow:0 4px 14px rgba(123,45,67,.06)}
+.dpv-sec h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(28px,4.5vw,38px);color:var(--vino);text-align:center;margin:0 0 4px;font-weight:600}
+.dpv-sec .sub{text-align:center;font-style:italic;color:#8a7a7e;margin:0 0 6px;font-size:16px}
+.dpv-texto{text-align:center;color:#7b2d43;max-width:720px;margin:0 auto}
+.dpv-texto p{margin:0 0 16px}
+.dpv-video,.dpv-doc{position:relative;width:100%;border-radius:12px;overflow:hidden;border:1px solid #e4cfc6;margin-top:18px;background:#000}
+.dpv-video{aspect-ratio:16/9}
+.dpv-doc{aspect-ratio:4/3.6;background:#fff}
+.dpv-video iframe,.dpv-doc iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.dpv-btn{text-align:center;margin-top:16px;font-size:15px}
+.dpv-refl{max-width:720px;margin:0 auto}
+.dpv-refl p{margin:0 0 16px;text-align:justify}
+.dpv-firma{font-family:'Dancing Script',cursive;font-size:28px;color:var(--vino);text-align:right;margin-top:8px}
+.dpv-pie{text-align:center;font-size:14px;color:#7a6a6e;padding:18px 10px 6px}
+@media(max-width:600px){.dpv{font-size:16.5px}.dpv-sec{padding:26px 16px}.dpv-doc{aspect-ratio:3/4}}
+</style>
+
+<div class="dpv" id="dpv-inicio">
+
+  <header class="dpv-hero">
+    <p class="pre">Bienvenidos a mi sitio</p>
+    <h1>TICS APLICADAS A LA SEGURIDAD Y SALUD EN EL TRABAJO</h1>
+    <hr class="dpv-line">
+    <p class="autora"><strong>Daniela Palacios Viancha</strong></p>
+    <p class="datos">Estudiante del programa profesional en Seguridad y Salud en el Trabajo · Universidad del Quindío<br>
+    Asignatura: TIC Virtual (D42026-2)<br>
+    Presentado al docente virtual <strong>José Heriberto Vargas Espinosa</strong><br>
+    Actividad evaluativa U3 · Noviembre de 2026</p>
+  </header>
+
+  <nav class="dpv-nav" aria-label="Menú de la página">
+    <a href="#dpv-texto">Mi Escrito:Música de cámara</a>
+    <a href="#dpv-video">Video</a>
+    <a href="#dpv-documento">Documento</a>
+    <a href="#dpv-Reflexion Final y Aprendizaje">Reflexión</a>
+  </nav>
+
+  <section class="dpv-sec" id="dpv-texto">
+    <h2>Música de cámara</h2>
+    <p class="sub">Un recorrido por el quinteto de cuerdas</p>
+    <hr class="dpv-line">
+    <div class="dpv-texto">
+      <p>La música de cámara es un género de la música clásica interpretado por un grupo reducido de instrumentos. En este caso se trata de un quinteto compuesto por un violín primero, un violín segundo, una viola, un violonchelo y un contrabajo, que no cuenta con un director: los músicos llevan su propio tiempo y se comunican entre ellos durante la interpretación.</p>
+      <p>Todos los instrumentos cumplen un papel importante. El violín primero casi siempre lleva la melodía, pero cuando se trabaja la armonía, la melodía puede pasar al violonchelo, a la viola, al contrabajo o al violín segundo; todo depende de la obra que se esté tocando.</p>
+      <p>Estos grupos no solo interpretan obras clásicas, también pueden tocar música colombiana, pasillos y bandas sonoras. En estos casos se realizan arreglos para poder interpretarlos en instrumentos de cuerda frotada.</p>
+      <p>Por esta razón, el quinteto o grupo de cámara es multifacético: su repertorio puede incluir música clásica, colombiana, llanera y de época, y puede cubrir eventos como bodas. También se presenta en festivales según su enfoque, como el reconocido Festival Mono Núñez en Ginebra, Valle del Cauca, dedicado a la música colombiana, donde se puede participar en concurso o simplemente exponer el talento.</p>
+    </div>
+  </section>
+
+  <section class="dpv-sec" id="dpv-video">
+    <h2>Video</h2>
+    <p class="sub">Material audiovisual de la actividad</p>
+    <hr class="dpv-line">
+    <div class="dpv-video">
+      <iframe src="https://www.youtube.com/embed/3stwk0BIkN8" title="Video de la actividad U3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="dpv-btn">¿No carga el video? <a href="https://www.youtube.com/watch?v=3stwk0BIkN8" target="_blank" rel="noopener">Míralo directamente en YouTube</a>.</p>
+  </section>
+
+  <section class="dpv-sec" id="dpv-documento">
+    <h2>Documento</h2>
+    <p class="sub">Estatuto Estudiantil de la Universidad del Quindío</p>
+    <hr class="dpv-line">
+    <div class="dpv-doc">
+      <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ITYwlw92Ra3iAf" title="Estatuto estudiantil compilatorio" loading="lazy" allowfullscreen></iframe>
+    </div>
+    <p class="dpv-btn">Documento alojado en SlideShare. <a href="https://es.slideshare.net/MEVIRTUALIZO/estatutoestudiantilcompilatorio-nueva-versionpdf-251660544" target="_blank" rel="noopener">Ábrelo en una pestaña nueva</a>.</p>
+  </section>
+
+  <section class="dpv-sec" id="dpv-reflexion">
+    <h2>Reflexión</h2>
+    <p class="sub">Mi experiencia con esta actividad</p>
+    <hr class="dpv-line">
+    <div class="dpv-refl">
+      <p>Esta actividad me permitió dar mis primeros pasos en la creación de un sitio web. Al comienzo parecía un reto, pero siguiendo los tutoriales entendí que publicar contenido en la web es un proceso accesible cuando se hace con orden y paciencia.</p>
+      <p>Aprendí a crear una cuenta y un sitio en WordPress, a escribir y dar formato a un texto, y a incorporar recursos externos como un video de YouTube y un documento de SlideShare. También comprendí la importancia de usar material con autorización de derechos de autor.</p>
+      <p>Como futura profesional en Seguridad y Salud en el Trabajo, considero que estas herramientas son muy útiles para comunicar información, capacitar a otras personas y compartir conocimiento de forma clara. Me llevo una experiencia valiosa y las ganas de seguir explorando las TIC.</p>
+      <p class="dpv-firma">Daniela Palacios Viancha</p>
+    </div>
+  </section>
+
+  <footer class="dpv-pie">
+    Universidad del Quindío · Seguridad y Salud en el Trabajo · TIC Virtual D42026-2<br>
+    <a href="#dpv-inicio">Volver al inicio ↑</a>
+  </footer>
+
+</div>
